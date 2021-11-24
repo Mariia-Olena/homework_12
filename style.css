@@ -656,6 +656,108 @@ body {
         margin-right: 0;
     }
 
+    .directions {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .directions__item {
+        margin-top: 15px;
+        max-width: 65%;
+    }
+
+    .directions__title {
+        font-size: 30px;
+        line-height: 35px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .directions__text {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .directions__img {
+        max-width: 90%;
+    }
+
+    .directions__item_img {
+        max-width: 35%;
+        text-align: center;
+    }
+
+    .localize {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .localize__title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .localize__item {
+        max-width: 30%;
+        margin-top: 25px;
+        margin-right: 0;
+    }
+    
+    .localize__img {
+        margin-bottom: 10px;
+    }
+    
+    .teams {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .teams__title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .teams__list {
+        justify-content: space-between;
+    }
+    
+    .teams__item {
+        margin-right: 0;
+        max-width: 30%;
+    }
+    
+    .teams__img {
+        margin-bottom: 20px;
+        height: 33%;
+    }
+    
+    .teams__subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+    
+    .teams__text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .teams__link {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -749,4 +851,50 @@ body {
     .partners__item {
         margin-right: 30px;
     }
+
+    .directions__img {
+        display: none;
+    }
+
+    .directions__item {
+        max-width: 100%;
+    }
+
+    .directions__title {
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .directions__text {
+        text-align: justify;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .directions__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .localize__item {
+        max-width: 100%;
+        margin-top: 5px;
+    }
+    
+    .localize__img {
+        margin-bottom: 5px;
+    }
+
+    .teams__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .teams__item {
+        max-width: none;
+
+    }
+
 }
