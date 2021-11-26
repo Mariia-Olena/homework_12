@@ -710,7 +710,7 @@ body {
     
     .teams {
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 0;
     }
 
     .teams__title {
@@ -749,16 +749,90 @@ body {
         font-size: 16px;
     }
 
+    .revolut {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+        
+    .revolut_text-part {
+        max-width: none;
+        width: 65%;
+    }
+    
+    .revolut__quote {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .revolut__img {
+        width: 30%;
+    }
 
+    .rating {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .rating__wrap {
+        flex-direction: column;
+    }
 
+    .rating__title {
+        line-height: 35px;
+        margin-left: 50px;
+        margin-right: 0;
+        max-width: none;
+    }
+    
+    .rating__mark-img {
+        padding-left: 50px;
+    }
 
+    .rating__mark-img:first-child {
+        border-left: none;
+    }
+    
+    .tools {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .tools__title {
+        font-size: 30px;
+        line-height: 35px;
+        max-width: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .tools__subtitle {
+        margin-bottom: 15px;
+        max-width: none;
+        width: 100%;
+    }
+    
+    .tools__img {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+    .try-it {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
 
-
-
-
-
-
-
+    .try-it__title {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 15px;
+        max-width: none;
+    }
+    
+    .try-it_subtitle {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -888,13 +962,36 @@ body {
     }
 
     .teams__list {
-        flex-wrap: wrap;
-        justify-content: center;
+        text-align: center;
+        flex-direction: column;
     }
 
     .teams__item {
         max-width: none;
-
     }
 
+    .revolut__img {
+        height: 50%;
+    }
+
+    .rating__title {
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 20px;
+        margin-right: 0;
+        max-width: none;
+    }
+    
+    .rating__mark-img {
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+
+    .tools__button {
+        width: 100%;
+    }
+
+    .try-it__button {
+        width: 100%;
+    }
 }
