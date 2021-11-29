@@ -539,6 +539,10 @@ body {
     margin-right: 30px;
 }
 
+.footer-nav__item:last-child {
+    margin-right: 0;
+}
+
 .footer-nav__sublist {
     width: 190px;
     margin-top: 21px;
